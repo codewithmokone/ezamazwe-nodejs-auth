@@ -119,8 +119,8 @@ function generateRandomPassword() {
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'codewithmokone@gmail.com', // Your email address
-    pass: '01C0d322377',  // Your email password or an app-specific password
+    user: '', // Your email address
+    pass: '',  // Your email password or an app-specific password
   },
 });
 
